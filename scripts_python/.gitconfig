@@ -1,0 +1,11 @@
+[user]
+	name = Andre Ferreira
+	email = andre.luiz.sf@hotmail.com
+[color]
+	ui = true
+	status = auto
+	branch = auto
+[core]
+	editor = /usr/bin/vim
+[merge]
+	tool = /usr/bin/diff

@@ -1,0 +1,256 @@
+2017-05-05 14:08:17,253 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-05-05 14:08:17,266 [     13]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-171.4163.6, 11 Apr 2017 11:10) 
+2017-05-05 14:08:17,266 [     13]   INFO -        #com.intellij.idea.Main - OS: Linux (4.9.0-deepin4-amd64, amd64) 
+2017-05-05 14:08:17,266 [     13]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_112-release-736-b16 (JetBrains s.r.o) 
+2017-05-05 14:08:17,266 [     13]   INFO -        #com.intellij.idea.Main - JVM: 25.112-b16 (OpenJDK 64-Bit Server VM) 
+2017-05-05 14:08:17,270 [     17]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/usr/local/pycharm-community-2017.1.1/lib/boot.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -XX:HeapDumpPath=/root/java_error_in_PYCHARM.hprof -Didea.paths.selector=PyCharmCE2017.1 -Djb.vmOptionsFile=/usr/local/pycharm-community-2017.1.1/bin/pycharm64.vmoptions -Didea.platform.prefix=PyCharmCore -Dawt.useSystemAAFontSettings=gasp 
+2017-05-05 14:08:17,270 [     17]   INFO -        #com.intellij.idea.Main - ext: /usr/local/pycharm-community-2017.1.1/jre64/lib/ext: [sunpkcs11.jar, meta-index, cldrdata.jar, jfxrt.jar, dnsns.jar, zipfs.jar, nashorn.jar, sunjce_provider.jar, sunec.jar, jaccess.jar, localedata.jar] 
+2017-05-05 14:08:17,271 [     18]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-05-05 14:08:17,298 [     45]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 27 ms 
+2017-05-05 14:08:24,349 [   7096]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter(DeepinGala) 
+2017-05-05 14:08:24,351 [   7098]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-05-05 14:08:25,310 [   8057]   INFO - llij.ide.plugins.PluginManager - 16 plugins initialized in 721 ms 
+2017-05-05 14:08:25,311 [   8058]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (171.4163.6), Git Integration (8.1), GitHub (171.4163.6), IDEA CORE (171.4163.6), IPython Notebook (0.1), IntelliLang (8.0), Python IntelliLang (VERSION), Python ReStructureText Integration (1.0), Python Terminal (VERSION), ReStructuredText Support (171.4163.6), Settings Repository (171.4163.6), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2017-05-05 14:08:25,947 [   8694]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/root/.PyCharmCE2017.1/system/caches/names.dat' does not exist 
+2017-05-05 14:08:25,950 [   8697]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2017-05-05 14:08:25,994 [   8741]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /usr/local/pycharm-community-2017.1.1/bin/fsnotifier64 
+2017-05-05 14:08:26,016 [   8763]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-05-05 14:08:26,892 [   9639]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2017-05-05 14:08:26,892 [   9639]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2017-05-05 14:08:27,424 [  10171]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-05-05 14:08:27,455 [  10202]   INFO - figurations.GeneralCommandLine - Cannot run program "/usr/local/pycharm-community-2017.1.1/bin/java": error=2, Arquivo ou diretório não encontrado 
+java.io.IOException: Cannot run program "/usr/local/pycharm-community-2017.1.1/bin/java": error=2, Arquivo ou diretório não encontrado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:374)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:360)
+	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:45)
+	at com.intellij.execution.process.CapturingProcessHandler.<init>(CapturingProcessHandler.java:38)
+	at com.intellij.execution.util.ExecUtil.execAndGetOutput(ExecUtil.java:100)
+	at com.intellij.util.JdkBundle.getJDKNameArchVersionAndUpdate(JdkBundle.java:220)
+	at com.intellij.util.JdkBundle.createBundle(JdkBundle.java:92)
+	at com.intellij.util.JdkBundle.createBoot(JdkBundle.java:125)
+	at com.intellij.util.JdkBundle.createBoot(JdkBundle.java:113)
+	at com.intellij.ide.SystemHealthMonitor.checkJvm(SystemHealthMonitor.java:86)
+	at com.intellij.ide.SystemHealthMonitor.initComponent(SystemHealthMonitor.java:75)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:491)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:120)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:176)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:501)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:66)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:473)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:104)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:425)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:199)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:343)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.io.IOException: error=2, Arquivo ou diretório não encontrado
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 40 more
+2017-05-05 14:08:27,516 [  10263]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-05-05 14:08:27,560 [  10307]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-05-05 14:08:27,719 [  10466]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:51 
+2017-05-05 14:08:27,724 [  10471]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:4 
+2017-05-05 14:08:27,745 [  10492]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:13 
+2017-05-05 14:08:27,746 [  10493]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:1 
+2017-05-05 14:08:27,814 [  10561]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-05-05 14:08:28,105 [  10852]   INFO - plication.impl.ApplicationImpl - 74 application components initialized in 3524ms 
+2017-05-05 14:08:28,173 [  10920]   INFO - .intellij.idea.IdeaApplication - App initialization took 19501 ms 
+2017-05-05 14:08:28,246 [  10993]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:XML,Python,PythonStub,HTML 
+2017-05-05 14:08:28,489 [  11236]   INFO - pl$FileIndexDataInitialization - Initialization done:765 
+2017-05-05 14:08:28,586 [  11333]   INFO - exImpl$StubIndexInitialization - Initialization done:94 
+2017-05-05 14:08:30,511 [  13258]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 275 ms 
+2017-05-05 14:08:31,338 [  14085]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@7fe8c421 
+2017-05-05 14:08:31,707 [  14454]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@6f92b496 
+2017-05-05 14:08:31,898 [  14645]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@69d1bc8c 
+2017-05-05 14:08:48,746 [  31493]   WARN - til.ui.update.LazyUiDisposable - use application as a parent disposable 
+2017-05-05 14:08:51,108 [  33855]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 414 ms 
+2017-05-05 14:08:51,123 [  33870]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2017-05-05 14:08:51,128 [  33875]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Python 2.7.12+ (/usr/bin/python2.7) (/usr/bin/python2.7)): /root/.PyCharmCE2017.1/system/python_stubs/-1247972723 
+2017-05-05 14:08:51,131 [  33878]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Python 2.7.12+ (/usr/bin/python2.7) (/usr/bin/python2.7)): /usr/local/pycharm-community-2017.1.1/helpers/python-skeletons 
+2017-05-05 14:08:51,186 [  33933]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 26 ms 
+2017-05-05 14:08:51,187 [  33934]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2017-05-05 14:08:51,188 [  33935]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Python 2.7.12+ (/usr/bin/python2.7) (/usr/bin/python2.7)): /root/.PyCharmCE2017.1/system/python_stubs/-1247972723 
+2017-05-05 14:08:51,188 [  33935]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Python 2.7.12+ (/usr/bin/python2.7) (/usr/bin/python2.7)): /usr/local/pycharm-community-2017.1.1/helpers/python-skeletons 
+2017-05-05 14:08:52,108 [  34855]   INFO - ellij.project.impl.ProjectImpl - 90 project components initialized in 629 ms 
+2017-05-05 14:08:52,109 [  34856]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2017-05-05 14:08:52,268 [  35015]   INFO - i.vcs.changes.ChangeListWorker - default list not found when copy 
+2017-05-05 14:08:52,268 [  35015]   INFO - i.vcs.changes.ChangeListWorker - default list not found when copy in original object too 
+2017-05-05 14:08:54,082 [  36829]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 61ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-05-05 14:08:54,378 [  37125]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK Python 2.7.12+ (/usr/bin/python2.7) (/usr/bin/python2.7) 
+2017-05-05 14:08:54,388 [  37135]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2017-05-05 14:08:54,799 [  37546]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/untitled/.idea case-sensitivity: expected=true actual=true 
+2017-05-05 14:08:54,830 [  37577]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 739ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2017-05-05 14:08:54,832 [  37579]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 214 files to update 
+2017-05-05 14:08:55,189 [  37936]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2017-05-05 14:08:55,746 [  38493]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 1282 ms 
+2017-05-05 14:08:55,749 [  38496]   INFO - .skeletons.PySkeletonRefresher - Home path is /usr/local/pycharm-community-2017.1.1 
+2017-05-05 14:08:57,381 [  40128]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2017-05-05 14:08:57,655 [  40402]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6222 ms 
+2017-05-05 14:08:57,713 [  40460]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2017-05-05 14:08:57,923 [  40670]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 8ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-05-05 14:09:01,334 [  44081]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3409ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-05-05 14:09:01,346 [  44093]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 5594 files to update 
+2017-05-05 14:09:01,636 [  44383]   INFO - .skeletons.PySkeletonGenerator - Rebuilding builtin skeletons took 5885 ms 
+2017-05-05 14:09:01,638 [  44385]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._AES 
+2017-05-05 14:09:02,021 [  44768]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._ARC2 
+2017-05-05 14:09:02,369 [  45116]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._ARC4 
+2017-05-05 14:09:02,687 [  45434]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._Blowfish 
+2017-05-05 14:09:02,774 [  45521]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /usr/local/pycharm-community-2017.1.1/helpers/packaging_tool.py list 
+2017-05-05 14:09:03,116 [  45863]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._CAST 
+2017-05-05 14:09:03,494 [  46241]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._DES 
+2017-05-05 14:09:04,014 [  46761]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._DES3 
+2017-05-05 14:09:04,516 [  47263]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._XOR 
+2017-05-05 14:09:04,945 [  47692]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._MD2 
+2017-05-05 14:09:05,395 [  48142]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._MD4 
+2017-05-05 14:09:05,945 [  48692]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._RIPEMD160 
+2017-05-05 14:09:06,547 [  49294]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._SHA224 
+2017-05-05 14:09:07,050 [  49797]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._SHA256 
+2017-05-05 14:09:07,562 [  50309]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._SHA384 
+2017-05-05 14:09:07,918 [  50665]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._SHA512 
+2017-05-05 14:09:08,260 [  51007]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.PublicKey._fastmath 
+2017-05-05 14:09:08,743 [  51490]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Util._counter 
+2017-05-05 14:09:09,339 [  52086]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Util.strxor 
+2017-05-05 14:09:09,800 [  52547]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.Qt 
+2017-05-05 14:09:11,558 [  54305]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtCore 
+2017-05-05 14:09:16,745 [  59492]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2017-05-05 14:09:16,746 [  59493]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2017-05-05 14:09:16,751 [  59498]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-05-05 14:09:16,772 [  59519]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 256 auto-detected files
+Elapsed time on auto-detect: 1627 ms 
+2017-05-05 14:09:16,785 [  59532]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2017-05-05 14:09:19,793 [  62540]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2017-05-05 14:09:19,993 [  62740]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2017-05-05 14:09:20,917 [  63664]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2017-05-05 14:09:20,919 [  63666]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2017-05-05 14:09:20,940 [  63687]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2017-05-05 14:09:20,946 [  63693]   INFO -   #com.intellij.util.Restarter - restart: [/root/.PyCharmCE2017.1/system/tmp/patch-update/jre/bin/java, -Xmx750m, -cp, /root/.PyCharmCE2017.1/system/tmp/patch-update/patch.jar:/root/.PyCharmCE2017.1/system/tmp/patch-update/log4j.jar:/root/.PyCharmCE2017.1/system/tmp/patch-update/jna.jar:/root/.PyCharmCE2017.1/system/tmp/patch-update/jna-platform.jar, -Djna.nosys=true, -Djna.boot.library.path=, -Djna.debug_load=true, -Djna.debug_load.jna=true, -Djava.io.tmpdir=/root/.PyCharmCE2017.1/system/tmp/patch-update, -Didea.updater.log=/root/.PyCharmCE2017.1/system/log, -Dswing.defaultlaf=javax.swing.plaf.metal.MetalLookAndFeel, com.intellij.updater.Runner, install, /usr/local/pycharm-community-2017.1.1] 
+2017-05-05 14:09:20,968 [  63715]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2017-05-05 14:09:20,979 [  63726]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-05-05 14:09:42,924 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-05-05 14:09:42,933 [      9]   INFO -     #com.intellij.util.ui.JBUI - UI scale factor: 1.0 
+2017-05-05 14:09:42,947 [     23]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-171.4249.47, 26 Apr 2017 12:42) 
+2017-05-05 14:09:42,948 [     24]   INFO -        #com.intellij.idea.Main - OS: Linux (4.9.0-deepin4-amd64, amd64) 
+2017-05-05 14:09:42,948 [     24]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_112-release-736-b21 (JetBrains s.r.o) 
+2017-05-05 14:09:42,948 [     24]   INFO -        #com.intellij.idea.Main - JVM: 25.112-b21 (OpenJDK 64-Bit Server VM) 
+2017-05-05 14:09:42,950 [     26]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/usr/local/pycharm-community-2017.1.1/lib/boot.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -XX:HeapDumpPath=/root/java_error_in_PYCHARM.hprof -Didea.paths.selector=PyCharmCE2017.1 -Djb.vmOptionsFile=/usr/local/pycharm-community-2017.1.1/bin/pycharm64.vmoptions -Didea.platform.prefix=PyCharmCore -Dawt.useSystemAAFontSettings=gasp 
+2017-05-05 14:09:42,950 [     26]   INFO -        #com.intellij.idea.Main - ext: /usr/local/pycharm-community-2017.1.1/jre64/lib/ext: [sunpkcs11.jar, meta-index, cldrdata.jar, jfxrt.jar, dnsns.jar, zipfs.jar, nashorn.jar, sunjce_provider.jar, sunec.jar, jaccess.jar, localedata.jar] 
+2017-05-05 14:09:42,950 [     26]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-05-05 14:09:42,973 [     49]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 22 ms 
+2017-05-05 14:09:43,269 [    345]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter(DeepinGala) 
+2017-05-05 14:09:43,270 [    346]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-05-05 14:09:44,447 [   1523]   INFO - llij.ide.plugins.PluginManager - 17 plugins initialized in 773 ms 
+2017-05-05 14:09:44,449 [   1525]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (171.4249.47), Git Integration (8.1), GitHub (171.4249.47), IDEA CORE (171.4249.47), IPython Notebook (0.1), IntelliLang (8.0), Python IntelliLang (VERSION), Python ReStructureText Integration (1.0), Python Terminal (VERSION), ReStructuredText Support (171.4249.47), Settings Repository (171.4249.47), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), YAML (171.4249.47), hg4idea (10.0) 
+2017-05-05 14:09:45,188 [   2264]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2017-05-05 14:09:45,246 [   2322]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /usr/local/pycharm-community-2017.1.1/bin/fsnotifier64 
+2017-05-05 14:09:45,262 [   2338]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-05-05 14:09:45,430 [   2506]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2017-05-05 14:09:45,430 [   2506]   INFO - pi.util.registry.RegistryState -   ide.ssh.one.time.password = true 
+2017-05-05 14:09:46,757 [   3833]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-05-05 14:09:46,780 [   3856]   INFO - figurations.GeneralCommandLine - Cannot run program "/usr/local/pycharm-community-2017.1.1/bin/java": error=2, Arquivo ou diretório não encontrado 
+java.io.IOException: Cannot run program "/usr/local/pycharm-community-2017.1.1/bin/java": error=2, Arquivo ou diretório não encontrado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:374)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:360)
+	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:45)
+	at com.intellij.execution.process.CapturingProcessHandler.<init>(CapturingProcessHandler.java:38)
+	at com.intellij.execution.util.ExecUtil.execAndGetOutput(ExecUtil.java:100)
+	at com.intellij.util.JdkBundle.getJDKNameArchVersionAndUpdate(JdkBundle.java:221)
+	at com.intellij.util.JdkBundle.createBundle(JdkBundle.java:92)
+	at com.intellij.util.JdkBundle.createBoot(JdkBundle.java:125)
+	at com.intellij.util.JdkBundle.createBoot(JdkBundle.java:113)
+	at com.intellij.ide.SystemHealthMonitor.checkJvm(SystemHealthMonitor.java:86)
+	at com.intellij.ide.SystemHealthMonitor.initComponent(SystemHealthMonitor.java:75)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:491)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:120)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:176)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:501)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:66)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:473)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:104)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:425)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:203)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:343)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.io.IOException: error=2, Arquivo ou diretório não encontrado
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 40 more
+2017-05-05 14:09:46,841 [   3917]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-05-05 14:09:46,911 [   3987]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-05-05 14:09:47,133 [   4209]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:83 
+2017-05-05 14:09:47,144 [   4220]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:11 
+2017-05-05 14:09:47,190 [   4266]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:18 
+2017-05-05 14:09:47,191 [   4267]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:1 
+2017-05-05 14:09:47,279 [   4355]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-05-05 14:09:47,440 [   4516]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index IdIndex. The index will be rebuilt. 
+2017-05-05 14:09:47,458 [   4534]   INFO - plication.impl.ApplicationImpl - 74 application components initialized in 3792ms 
+2017-05-05 14:09:47,496 [   4572]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index filetypes. The index will be rebuilt. 
+2017-05-05 14:09:47,522 [   4598]   INFO - .intellij.idea.IdeaApplication - App initialization took 7473 ms 
+2017-05-05 14:09:47,974 [   5050]   INFO - pl$FileIndexDataInitialization - Initialization done:829 
+2017-05-05 14:09:48,024 [   5100]   INFO - exImpl$StubIndexInitialization - Initialization done:49 
+2017-05-05 14:09:50,423 [   7499]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 951 ms 
+2017-05-05 14:09:51,771 [   8847]   INFO - ellij.project.impl.ProjectImpl - 90 project components initialized in 2604 ms 
+2017-05-05 14:09:51,815 [   8891]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@631dd16b 
+2017-05-05 14:09:52,056 [   9132]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 259 ms 
+2017-05-05 14:09:52,414 [   9490]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@2a6db70f 
+2017-05-05 14:09:52,696 [   9772]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@24e731a2 
+2017-05-05 14:09:53,956 [  11032]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 19ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-05-05 14:09:54,943 [  12019]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/untitled/.idea case-sensitivity: expected=true actual=true 
+2017-05-05 14:09:55,480 [  12556]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6698 ms 
+2017-05-05 14:09:56,624 [  13700]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2663ms; general responsiveness: ok; EDT responsiveness: 1/3 sluggish 
+2017-05-05 14:09:56,636 [  13712]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 5614 files to update 
+2017-05-05 14:10:55,727 [  72803]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 59091ms; general responsiveness: ok; EDT responsiveness: 0/59 sluggish, 1/59 very slow 
+2017-05-05 14:10:57,406 [  74482]   WARN - ng.ui.PyCondaManagementService - Could not find conda python interpreter 
+2017-05-05 14:11:05,559 [  82635]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2017-05-05 14:11:05,560 [  82636]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2017-05-05 14:11:05,568 [  82644]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-05-05 14:11:05,588 [  82664]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 211 auto-detected files
+Elapsed time on auto-detect: 1800 ms 
+2017-05-05 14:11:05,613 [  82689]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2017-05-05 14:11:05,618 [  82694]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2017-05-05 14:11:06,698 [  83774]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2017-05-05 14:11:06,700 [  83776]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2017-05-05 14:11:06,729 [  83805]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2017-05-05 14:11:06,733 [  83809]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2017-05-05 14:11:06,743 [  83819]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
